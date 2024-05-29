@@ -15,8 +15,6 @@ public abstract class BaseController<T, ID> {
     return service.findAll();
     }
 
-
-
     @GetMapping("/{id}")
     public T getById(@PathVariable ID id) {
         return service.findById(id);
@@ -31,6 +29,4 @@ public abstract class BaseController<T, ID> {
     public void deleteById(@PathVariable ID id) {
         service.deleteById(id);
     }
-
-
 }
