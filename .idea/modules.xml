@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Turtlemint_assessment.iml" filepath="$PROJECT_DIR$/.idea/Turtlemint_assessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Turtlemint_assessment1.iml" filepath="$PROJECT_DIR$/Turtlemint_assessment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Turtlemint_assessment1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Turtlemint_assessment1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Turtlemint_assessment1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Turtlemint_assessment1.test.iml" />
     </modules>
   </component>
 </project>
