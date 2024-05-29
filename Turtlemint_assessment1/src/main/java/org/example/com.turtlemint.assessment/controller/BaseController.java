@@ -12,8 +12,10 @@ public abstract class BaseController<T, ID> {
 
     @GetMapping
     public List<T> getAll() {
-        return service.findAll();
+    return service.findAll();
     }
+
+
 
     @GetMapping("/{id}")
     public T getById(@PathVariable ID id) {
@@ -22,11 +24,13 @@ public abstract class BaseController<T, ID> {
 
     @PostMapping
     public T save(@RequestBody T entity) {
-        return service.save(entity);
+    return service.save(entity);
     }
 
     @DeleteMapping("/{id}")
     public void deleteById(@PathVariable ID id) {
         service.deleteById(id);
     }
+
+
 }
